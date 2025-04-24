@@ -1,0 +1,186 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section*{Chapter 10}
+\addcontentsline{toc}{section}{Chapter 10}
+
+%
+\subsection*{Example 10.1*}
+\addcontentsline{toc}{subsection}{Exercise 10.1*}
+%
+Binary system acetonitrile(1)/nitromethane(2) conforms closely to Raoult's law.
+Vapor pressures for the pure species are given by the following
+Antoine equations:
+%
+\begin{gather*}% opts
+  \ln P_1^{\text{sat}} / \unit{kPa} = 14.2724 - \frac{2945.47}{T - 49.15}\\
+  \ln P_2^{\text{sat}} / \unit{kPa} = 14.2043 - \frac{2972.64}{T - 64.15}
+\end{gather*}
+%
+\begin{enumerate}[label=(\alph*)]
+  \item Prepare a graph showing $P$ vs. $x_{1}$ and $P$ vs. $y_{1}$
+    for a temperature of 75~\unit{\degreeCelsius}.
+  \item Prepare graph showing $t$ vs. $x_{1}$ and $t$ vs. $y_{2}$
+    for a pressure of 70~\unit{\kilo\pascal}.
+\end{enumerate}
+%
+\begin{solution}% opts
+  %
+  \begin{enumerate}[label=(\alph*)]
+    \item
+      %
+      \begin{gather*}% opts
+        P_{\alpha} = x_{\alpha}P_{\alpha}^{*}\\
+        \intertext{Substitute this to the Antoine equation:}
+        \ln{\frac{P_{\alpha}/\unit{\kilo\pascal}}{x_{\alpha}}} = A_{\alpha} -
+        \frac{B_{\alpha}}{t/\unit{\degreeCelsius}+C_{\alpha}}\\
+        P = P_{1}^{\text{sat}}x_{1} + P_{2}^{\text{sat}}(1-x_{1})\\
+        y_{\alpha} = \frac{P_{\alpha}}{P} =
+        \frac{P_{\alpha}^{\text{sat}}x_{\alpha}}{P}
+      \end{gather*}
+      The plot is shown in Figure~(\ref{fig:e10-1a})
+      %
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[scale=0.5]{../img/e10-1.pdf}%
+        \caption{Plot of pressure versus liquid and vapor mole fraction
+        of component 1 as described in Example 10.1a*}
+        \label{fig:e10-1a}
+      \end{figure}
+      %
+    \item
+      This is another form of the Antoine equation:
+      %
+      \begin{gather*}% opts
+        T_{\alpha}^{\text{sat}} = \frac{B_{\alpha}}{A_{\alpha} - \ln
+        P} + C_{\alpha}\\
+        \intertext{Solve for $T_{1}^{\text{sat}}$ and
+          $T_{2}^{\text{sat}}$ as these comprise of the range of the graph. %
+          Solve for:
+        }
+        \ln P_{\alpha}^{\text{sat}} = A_{\alpha} -
+        \frac{B_{\alpha}}{T+C_{\alpha}}\\
+        \intertext{To solve for:}
+        x_{1}=\frac{P-P_{2}^{\text{sat}}}{P_{1}^{\text{sat}}-P_{2}^{\text{sat}}}\\
+        \intertext{Which is derived from:}
+        P = P_{1}^{\text{sat}}x_{1} + P_{2}^{\text{sat}}(1-x_{1})
+      \end{gather*}
+      %
+      The plot is shown in Figure~(\ref{fig:e10-1b})
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[scale=0.6]{../img/e10-1b.pdf}%
+        \caption{Plot of temperature (in \unit{\degreeCelsius})
+          versus liquid and vapor mole fraction of component 1 as
+          described in Example 10.1b*
+        }
+        \label{fig:e10-1b}
+      \end{figure}
+      %
+  \end{enumerate}
+  %
+\end{solution}
+
+%
+\subsection*{Example 10.2*}
+\addcontentsline{toc}{subsection}{Example 10.2*}
+%
+Assuming that carbonated water contains only $\ce{CO2}$(1) and
+$\ce{H2O}$(2), determine the compositions of the vapor and liquid
+phases in a sealed can of "soda" and the pressure exerted on the can
+at 10~\unit{\degreeCelsius} (283.15~\unit{\kelvin}). Henry's constant
+for $\ce{CO2}$ in water at 10~\unit{\degreeCelsius}
+(283.15~\unit{\kelvin}) is about 990~\unit{\bar}
+%
+\begin{solution}% opts
+  Applying the phase rule:
+  \begin{gather*}% opts
+    F = 2 - \pi + N \\
+    F = 2
+  \end{gather*}
+  Only the temperature of the system is given. We must give another
+  intensive variable. And since we are given the Henry's constant it
+  is good that we limit the amount of $\ce{C02}$ in the liquid, $x_{1}=0.01$.
+  \begin{gather*}% opts
+    y_{1}P = x_{1}\mathcal{H}_{1} \qquad y_{2}P = x_{2}P_{2}^{\text{sat}}\\
+    P = x_{1}\mathcal{H}_{1} + x_{2}P_{2}^{\text{sat}}
+  \end{gather*}
+  The value of $P_{2}\text{sat}$ can be found at the steam table, at
+  10~\unit{\degreeCelsius}, which is 0.01227~\unit{\bar}
+  \begin{gather*}% opts
+    P = (0.01)(990) + (0.99)(0.01227) = \boxed{9.912~\unit{\bar}}\\
+    y_{2} = \frac{x_{2}P_{2}^{\text{sat}}}{P} =
+    \frac{(0.99)(0.01227)}{9.912} = \boxed{0.0012}\\
+    y_{1} = \boxed{0.9988}
+  \end{gather*}
+\end{solution}
+%
+
+%
+\subsection*{Example 10.3*}
+\addcontentsline{toc}{subsection}{Example 10.3*}
+%
+For the system methanol(1)/methyl acetate(2), the following equations
+provide a reasonable correlation for the activity coefficients"
+\begin{gather*}% opts
+  \ln y_{1} = Ax_{2}^{2} \qquad \ln y_{2} = Ax_{1}^{2} where A = 2.771
+  - 0.00523 T
+\end{gather*}
+In addition, the following Antoine equations provide vapor pressures:
+\begin{gather*}% opts
+  \ln P_{1}^{\text{sat}} = 16.59158 - \frac{3643.31}{T - 33.424} \\
+  \ln P_{2}^{\text{sat}} = 14.25326 - \frac{2665.54}{T - 53.424}
+\end{gather*}
+where T is in kelvins and the vapor pressures are in kPa. Assuming
+the validity of Eq~(\ref{eq:mrl}), calculate
+%
+\begin{enumerate}[label=(\alph*)]
+  \item $P$ and $\{y_{i}\}$, for $t/T =
+    45~\unit{\degreeCelsius}/318.15~\unit{\kelvin}$ and $x_{1}=0.25$
+  \item $P$ and $\{x_{i}\}$, for $t/T =
+    45~\unit{\degreeCelsius}/318.15~\unit{\kelvin}$ and $y_{i}=0.60$
+  \item $T$ and $\{y_{i}\}$, for $P = 101.33~\unit{\kilo\pascal}$ and
+    $y_{i}=0.85$
+  \item $T$ and $\{x_{i}\}$, for $P = 101.33~\unit{\kilo\pascal}$ and
+    $y_{i}=0.40$
+  \item The azeotropic pressure, and the azeotropic composition, for
+    $t/T = 45~\unit{\degreeCelsius}/318.15~\unit{\kelvin}$
+\end{enumerate}
+%
+\begin{equation}% opts
+  y_{i}P = x_{i}\gamma_{i}P_{i}^{\text{sat}} \qquad (i = 1,2,\dots,N)
+  \label{eq:mrl}
+\end{equation}
+%
+\begin{solution}% opts
+  %
+  \begin{enumerate}[label=(\alph*)]
+    \item
+      Solve for the activity coefficients:
+      \begin{gather*}% opts
+        A = 2.771 - (0.00523)(318.15) = 1.107\\
+        \gamma_{1} = \exp{(Ax_{2}^{2})} = 1.864\\
+        \gamma_{2} = \exp{(Ax_{1}^{2})} = 1.072
+      \end{gather*}
+      And then for pressure:
+      \begin{gather*}% opts
+        P = x_{1}\gamma_{1}P_{1}^{\text{sat}} +
+        x_{2}\gamma_{2}P_{2}^{\text{sat}}\\
+        P = \boxed{73.50~\unit{\kilo\pascal}}
+      \end{gather*}
+      And then for the vapor mole fractions:
+      \begin{gather*}% opts
+        y_{i} = x_{i}\gamma_{i}P_{i}^{\text{sat}}/P
+      \end{gather*}
+      \begin{empheq}[box=\widefbox]{gather*}
+        y_{1} = 0.281\\
+        y_{2} = 0.719
+      \end{empheq}
+    \item
+
+  \end{enumerate}
+  %
+\end{solution}
+%
+\end{document}

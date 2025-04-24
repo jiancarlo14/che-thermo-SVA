@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1745403386.09739 "C:/Users/Jian/Main/projects/che-thermo-SVA/tex/chapter-10.tex" "build/chapter-10.pdf" "chapter-10" 1745403386.63104 2
+  "C:/Users/Jian/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738332127 24224615 59b084003966941d1e6cb2ba1f4ce317 ""
+  "C:/Users/Jian/Main/projects/che-thermo-SVA/tex/chapter-10.tex" 1745403385 184 8ebe27d87a477de72857d0b9fb682254 ""
+  "build/chapter-10.aux" 1745402821 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "build/subfile.cls" 0 -1 0 ""
+  "subfile.cls" 0 -1 0 ""
+  "tex/chapter-10.tex" 1745403385 184 8ebe27d87a477de72857d0b9fb682254 ""
+  (generated)
+  "build/chapter-10.aux"
+  "build/chapter-10.log"
+  "build/chapter-10.pdf"
+  (rewritten before read)
