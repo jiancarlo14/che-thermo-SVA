@@ -6,7 +6,7 @@ A, B, C, T = symbols("A, B, C, T")
 Antoine_P_expr = math.e**(A - B / (T + C))
 Antoine_P = lambdify((A, B, C, T), Antoine_P_expr) 
 
-def m_BUBL_P(x1, Temp_C, A1, B1, C1, A2, B2, C2) -> Tuple[float, float]:
+def m_BUBL_P(x1, Temp_C, A1, B1, C1, A2, B2, C2) -> Tuple[float, float, float, float, float]:
     """
     Return (y1, P)
     """
@@ -24,12 +24,12 @@ def m_BUBL_P(x1, Temp_C, A1, B1, C1, A2, B2, C2) -> Tuple[float, float]:
 
     y1 = x1*gamma1*P1_sat/P
 
-    return (y1, P)
+    return (y1, P, P1_sat, P2_sat, const)
 
-y1, P = m_BUBL_P(0.25, 45, 16.5785, 3638.27, 239.500, 14.2456, 2662.78, 219.690)
-print("(a)")
-print("y1 =",y1) 
-print("y2 =",1-y1)
-print("P =",P) 
-print()
-
+y1, P, P1SAT, P2SAT, CONST = m_BUBL_P(0.25, 45, 16.5785, 3638.27, 239.500, 14.2456, 2662.78, 219.690)
+# print("(a)")
+# print("y1 =",y1) 
+# print("y2 =",1-y1)
+# print("P =",P) 
+# print()
+#

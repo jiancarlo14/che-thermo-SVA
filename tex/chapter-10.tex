@@ -95,17 +95,21 @@ for $\ce{CO2}$ in water at 10~\unit{\degreeCelsius}
 %
 \begin{solution}% opts
   Applying the phase rule:
+  %
   \begin{gather*}% opts
     F = 2 - \pi + N \\
     F = 2
   \end{gather*}
+  %
   Only the temperature of the system is given. We must give another
   intensive variable. And since we are given the Henry's constant it
   is good that we limit the amount of $\ce{C02}$ in the liquid, $x_{1}=0.01$.
+  %
   \begin{gather*}% opts
     y_{1}P = x_{1}\mathcal{H}_{1} \qquad y_{2}P = x_{2}P_{2}^{\text{sat}}\\
     P = x_{1}\mathcal{H}_{1} + x_{2}P_{2}^{\text{sat}}
   \end{gather*}
+  %
   The value of $P_{2}\text{sat}$ can be found at the steam table, at
   10~\unit{\degreeCelsius}, which is 0.01227~\unit{\bar}
   \begin{gather*}% opts
@@ -124,8 +128,8 @@ for $\ce{CO2}$ in water at 10~\unit{\degreeCelsius}
 For the system methanol(1)/methyl acetate(2), the following equations
 provide a reasonable correlation for the activity coefficients"
 \begin{gather*}% opts
-  \ln y_{1} = Ax_{2}^{2} \qquad \ln y_{2} = Ax_{1}^{2} where A = 2.771
-  - 0.00523 T
+  \ln y_{1} = Ax_{2}^{2} \qquad \ln y_{2} = Ax_{1}^{2} \\
+  \text{where } A = 2.771 - 0.00523 T
 \end{gather*}
 In addition, the following Antoine equations provide vapor pressures:
 \begin{gather*}% opts
@@ -139,19 +143,19 @@ the validity of Eq~(\ref{eq:mrl}), calculate
   \item $P$ and $\{y_{i}\}$, for $t/T =
     45~\unit{\degreeCelsius}/318.15~\unit{\kelvin}$ and $x_{1}=0.25$
   \item $P$ and $\{x_{i}\}$, for $t/T =
-    45~\unit{\degreeCelsius}/318.15~\unit{\kelvin}$ and $y_{i}=0.60$
+    45~\unit{\degreeCelsius}/318.15~\unit{\kelvin}$ and $y_{1}=0.60$
   \item $T$ and $\{y_{i}\}$, for $P = 101.33~\unit{\kilo\pascal}$ and
-    $y_{i}=0.85$
+    $x_{1}=0.85$
   \item $T$ and $\{x_{i}\}$, for $P = 101.33~\unit{\kilo\pascal}$ and
-    $y_{i}=0.40$
+    $y_{1}=0.40$
   \item The azeotropic pressure, and the azeotropic composition, for
     $t/T = 45~\unit{\degreeCelsius}/318.15~\unit{\kelvin}$
 \end{enumerate}
 %
-\begin{equation}% opts
+\begin{equation*}% opts
   y_{i}P = x_{i}\gamma_{i}P_{i}^{\text{sat}} \qquad (i = 1,2,\dots,N)
   \label{eq:mrl}
-\end{equation}
+\end{equation*}
 %
 \begin{solution}% opts
   %
@@ -177,8 +181,47 @@ the validity of Eq~(\ref{eq:mrl}), calculate
         y_{1} = 0.281\\
         y_{2} = 0.719
       \end{empheq}
+    \item Figure~(\ref{fig:e10-3b}) shows the diagram of the
+      iteration solution to be used.
+      %
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\linewidth]{../img/e10-3b.pdf}%
+        \caption{A schematic diagram for the iteration method to be
+        used for Example 10.3b.}
+        \label{fig:e10-3b}
+      \end{figure}
+      %
+      The initial guesses are $\gamma_{1}=1$ and $\gamma_{2}=1$.
+      After the 12th iteration, the error is less than $1\times10^{-6}$.
+      \begin{empheq}[box=\widefbox]{gather*}
+        P = 62.63~\unit{\kilo\pascal}\\
+        x_{1} = 0.82\\
+        x_{2} = 0.18
+      \end{empheq}
     \item
-
+      \begin{gather*}% opts
+        T_{i}^{\text{sat}} = \frac{B_{i}}{A_{i} - \ln P} - C_{i} \\
+        T_{1}^{\text{sat}} = 337.71~\unit{\kelvin} \\
+        T_{2}^{\text{sat}} = 330.08~\unit{\kelvin} \\
+        \intertext{A mole-fraction-weighted average of these values
+        then provides an initial $T$ for the iteration:}
+        T = x_{1}T_{1} + x_{2}T_{2} \\
+        T = 336.57~\unit{\kelvin}
+      \end{gather*}
+      Solve for either $P_{1}^{\text{sat}}$ or $P_{2}^{\text{sat}}$
+      and then solve for a new value of $T$. Using this $T$, solve
+      for $A$, $\gamma_{1}$, and $\gamma_{2}$. The iteration method
+      is shown as a schematic diagram in Figure~(\ref{fig:e10-3c})
+      %
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\linewidth]{../img/e10-3c.pdf}%
+        \caption{A schematic diagram showing the iteration method
+        used in 10.3c.}
+        \label{fig:e10-3c}
+      \end{figure}
+      %
   \end{enumerate}
   %
 \end{solution}

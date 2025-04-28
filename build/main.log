@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.31)  24 APR 2025 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.31)  27 APR 2025 21:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,19 +1309,36 @@ Package pdftex.def Info: tex/../img/e10-1b.pdf  used on input line 73.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2 <./tex/../img/e10-1.pdf>]
-Overfull \hbox (0.30943pt too wide) in paragraph at lines 108--111
+Overfull \hbox (0.30943pt too wide) in paragraph at lines 111--115
 \OT1/lmr/m/n/10 The value of $\OML/lmm/m/it/10 P[][]$ \OT1/lmr/m/n/10 can be fo
 und at the steam ta-ble, at 10 $[]$, which is 0.01227 $[]$ 
  []
 
 [3 <./tex/../img/e10-1b.pdf>]
-Overfull \hbox (36.191pt too wide) in paragraph at lines 147--149
+
+Package hyperref Warning: Suppressing empty link on input line 140.
+
+
+Overfull \hbox (36.191pt too wide) in paragraph at lines 151--153
 []\OT1/lmr/m/n/10 The azeotropic pres-sure, and the azeotropic com-po-si-tion, 
 for $\OML/lmm/m/it/10 t=T \OT1/lmr/m/n/10 = 45 []\OML/lmm/m/it/10 =\OT1/lmr/m/n
 /10 318\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 15 K$ 
  []
 
-[4]) [5] (C:\Users\Jian\Main\projects\che-thermo-SVA\build\main.aux)
+[4]
+<tex/../img/e10-3b.pdf, id=101, 498.22498pt x 227.2125pt>
+File: tex/../img/e10-3b.pdf Graphic file (type pdf)
+<use tex/../img/e10-3b.pdf>
+Package pdftex.def Info: tex/../img/e10-3b.pdf  used on input line 189.
+(pdftex.def)             Requested size: 345.0pt x 157.33495pt.
+ [5 <./tex/../img/e10-3b.pdf>]
+<tex/../img/e10-3c.pdf, id=114, 498.36188pt x 227.34938pt>
+File: tex/../img/e10-3c.pdf Graphic file (type pdf)
+<use tex/../img/e10-3c.pdf>
+Package pdftex.def Info: tex/../img/e10-3c.pdf  used on input line 219.
+(pdftex.def)             Requested size: 345.0pt x 157.39159pt.
+) [6 <./tex/../img/e10-3c.pdf>]
+(C:\Users\Jian\Main\projects\che-thermo-SVA\build\main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1330,13 +1347,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DB9DBCE3C08614358F7DDCB0C344A5BE;468.
  ) 
 Here is how much of TeX's memory you used:
- 25694 strings out of 474485
- 524389 string characters out of 5744206
+ 25715 strings out of 474485
+ 524858 string characters out of 5744206
  1943542 words of memory out of 5000000
- 47542 multiletter control sequences out of 15000+600000
+ 47558 multiletter control sequences out of 15000+600000
  600059 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,93p,508b,1402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,93p,508b,1349s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mmi12.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmr12.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/publi
@@ -1352,10 +1369,10 @@ public/lm/lmr7.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/lm/lmssbx10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/lm/lmsy10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/lm/lmsy7.pfb>
-Output written on C:\Users\Jian\Main\projects\che-thermo-SVA\build\main.pdf (5 
-pages, 332540 bytes).
+Output written on C:\Users\Jian\Main\projects\che-thermo-SVA\build\main.pdf (6 
+pages, 354153 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
