@@ -1,7 +1,7 @@
-PWD /storage/emulated/0/projects/che-thermo-SVA
+PWD /data/data/com.termux/files/home/projects/che-thermo-SVA
 INPUT /data/data/com.termux/files/usr/share/texlive/2025.0/texmf-dist/web2c/texmf.cnf
 INPUT /data/data/com.termux/files/usr/share/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /storage/emulated/0/projects/che-thermo-SVA/main.tex
+INPUT /data/data/com.termux/files/home/projects/che-thermo-SVA/main.tex
 OUTPUT build/main.log
 INPUT /data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/article.cls
