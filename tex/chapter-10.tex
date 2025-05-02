@@ -223,11 +223,22 @@ the validity of Eq~(\ref{eq:mrl}), calculate
       \end{figure}
       %
       \begin{empheq}[box=\widefbox]{gather*}
-        T = 241.63~\unit{\kelvin} \\
-        x_{1} = 0.8572 \\
-        x_{2} = 0.1428
+        T = 255.45~\unit{\kelvin} \\
+        x_{1} = 0.4633 \\
+        x_{2} = 0.5367
       \end{empheq}
     \item
+      The iteration method to be done is shown in Figure~(\ref{fig:e10-3d})
+      %
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\linewidth]{../img/e10-3d.pdf}%
+        \caption{A schematic diagram showing the iteration method
+        used in 10.3d.}
+        \label{fig:e10-3d}
+      \end{figure}
+      %
+
   \end{enumerate}
   %
 \end{solution}
@@ -266,5 +277,118 @@ pure species at 80~\unit{\degreeCelsius} are:
   %
 \end{solution}
 %
+
+%
+\subsection*{Problem 10.1}
+\addcontentsline{toc}{subsection}{Problem 10.1}
+%
+Assuming the validity of Raoult's law, do the following calculations
+for the benzene(1)/toluene(2) system:
+%
+\begin{enumerate}[label=(\alph*)]
+  \item Given $x_{1} = 0.33$ and $T=100~\unit{\degreeCelsius}$, find
+    $y_{1}$ and $P$.
+  \item Given $y_{1} = 0.33$ and $T=100~\unit{\degreeCelsius}$, find
+    $x_{1}$ and $P$.
+  \item Given $x_{1} = 0.33$ and $P=120~\unit{\kilo\pascal}$, find
+    $y_{1}$ and $T$.
+  \item Given $y_{1} = 0.33$ and $P=120~\unit{\kilo\pascal}$, find
+    $x_{1}$ and $T$.
+  \item Given $T=105~\unit{\degreeCelsius}$ and
+    $P=120~\unit{\kilo\pascal}$ find $x_{1}$ and $y_{1}$.
+  \item For part (e), if the \textit{overall} mole fraction of
+    benzene is $z_{1}=0.33$, what molar fraction of the two-phase
+    system is vapor?
+  \item Why is Raoult's law likely to be an excellent VLE model for
+    this system at the stated (or computed) conditions?
+\end{enumerate}
+%
+\begin{solution}% opts
+  \begin{align*}% opts
+    A_{1} = 13.7819 & \qquad A_{2} = 13.9320 \\
+    B_{1} = 2726.81 & \qquad B_{2} = 3056.96 \\
+    C_{1} = 217.572 & \qquad C_{2} = 217.625
+  \end{align*}
+  %
+  \begin{enumerate}[label=(\alph*)]
+
+    \item $x_{1}=0.33$ and $T=100~\unit{\degreeCelsius}$, find $P$ and $y_{1}$
+      \begin{gather*}% opts
+        \ln P_{i}^{\text{sat}}/\unit{\kilo\pascal} = A_{i} -
+        \frac{B_{i}}{t/\unit{\degreeCelsius} + C_{i}} \\
+        P_{1}^{\text{sat}} = 180.45~\unit{\kilo\pascal} \\
+        P_{2}^{\text{sat}} = 74.26~\unit{\kilo\pascal} \\
+        P = P_{1}^{\text{sat}}x_{1} + P_{2}^{\text{sat}}(1-x_{1}) \\
+        \boxed{P=109.30~\unit{\kilo\pascal}} \\
+        y_{1} = \frac{x_{1}P_{1}^{\text{sat}}}{P} \\
+        \boxed{y_{1} = 0.5448}
+      \end{gather*}
+
+    \item $y_{1}=0.33$ and $T=100~\unit{\degreeCelsius}$, find $x_{1}$ and $P$
+      \begin{gather*}% opts
+        x_{1} = \frac{y_{1}P}{P_{1}^{\text{sat}}} \\
+        P = y_{1}P + P_{2}^{\text{sat}}\left(1 -
+        \frac{y_{1}P}{P_{1}^{\text{sat}}}\right)
+      \end{gather*}
+      \begin{empheq}[box=\widefbox]{gather*}
+        P = 92.156~\unit{\kilo\pascal} \\
+        x_{1} = 0.169
+      \end{empheq}
+
+    \item $x_{1}=0.33$ and $P=120~\unit{\kilo\pascal}$, find $y_{1}$ and $T$
+      \begin{gather*}% opts
+        x_{1}\cdot\exp\left(A_{1} - \frac{B_{1}}{T + C_{1}}\right) +
+        x_{2}\cdot\exp\left(A_{2} - \frac{B_{2}}{T + C_{2}}\right) = P \\
+        P_{1}^{\text{sat}} = A_{1} - \frac{B_{1}}{T + C_{1}} \\
+        y_{1} = \frac{x_{1}P_{1}^{\text{sat}}}{P}
+      \end{gather*}
+      \begin{empheq}[box=\widefbox]{gather*}
+        T = 103.307~\unit{\degreeCelsius} \\
+        y_{1} = 0.542
+      \end{empheq}
+
+    \item $y_{1}=0.33$ and $P=120~\unit{\kilo\pascal}$, find $x_{1}$ and $T$
+      \begin{gather*}% opts
+        P = x_{1}P_{1}^{\text{sat}} + (1-x_{1})P_{2}^{\text{sat}} \\
+        x_{1} = \frac{y_{1}P}{P_{1}^{\text{sat}}}
+        P = y_{1}P + (1 -
+        \frac{y_{1}P}{P_{1}^{\text{sat}}})P_{2}^{\text{sat}} \\
+        P_{i}^{\text{sat}} = A_{i} - \frac{B_{i}}{T + C_{i}}
+      \end{gather*}
+      \begin{empheq}[box=\widefbox]{gather*}
+        T = 109.13~\unit{\degreeCelsius} \\
+        x_{1} = 0.1726
+      \end{empheq}
+
+    \item $T = 105~\unit{\degreeCelsius}$, $P =
+      120~\unit{\kilo\pascal}$, find $x_{1}$, $y_{1}$
+      \begin{gather*}% opts
+        P = y_{1}P + \left(1 -
+        \frac{y_{1}P}{P_{1}^{\text{sat}}}\right)P_{2}^{\text{sat}} \\
+        P_{i}^{\text{sat}} = A_{i} - \frac{B_{i}}{T + C_{i}}
+        x_{i} = \frac{y_{i}P}{P_{i}^{\text{sat}}}
+      \end{gather*}
+      \begin{empheq}[box=\widefbox]{gather*}
+        y_{1} = 0.4840 \\
+        x_{1} = 0.2818
+      \end{empheq}
+
+    \item $z_{1}=0.33$, find $\mathcal{V}$
+      \begin{gather*}% opts
+        z_{1} = \frac{\mathcal{L}x_{1} +
+        \mathcal{V}y_{1}}{\mathcal{L} + \mathcal{V}}
+        \intertext{Basis: $\mathcal{L} + \mathcal{V} = 1~\unit{\mole}$}
+        z_{1} = \mathcal{L}x_{1} + (1 -
+        \mathcal{L})y_{1} \\
+        \mathcal{L} = 0.7616 \\
+        \boxed{V = 0.2384}
+      \end{gather*}
+
+    \item Benzene and toluene are two very similar compounds on top
+      of being non-polar, minimizing chemical interactions.
+
+  \end{enumerate}
+  %
+\end{solution}
 
 \end{document}

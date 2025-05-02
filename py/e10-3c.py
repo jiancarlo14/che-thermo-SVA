@@ -48,10 +48,10 @@ alpha_formula = sp.lambdify(t_var, antoine_pi(2)/antoine_pi(1))
 a_var = sp.symbols("a_var")
 def gm_expr(specie: int):
     if specie == 1:
-        X = X1
-    elif specie == 2:
         X = X2
-    gm_formula = e**(a_var*X)
+    elif specie == 2:
+        X = X1
+    gm_formula = e**(a_var*X**2)
     return gm_formula
 # print(gm_expr(1))
 # print(gm_expr(2))

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.31)  29 APR 2025 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.31)  2 MAY 2025 09:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1285,21 +1285,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout5 = `main.toc'.
 
  (tex/chapter-10.tex
-<tex/../img/e10-1.pdf, id=37, 667.0521pt x 497.94029pt>
+<tex/../img/e10-1.pdf, id=42, 667.0521pt x 497.94029pt>
 File: tex/../img/e10-1.pdf Graphic file (type pdf)
 <use tex/../img/e10-1.pdf>
 Package pdftex.def Info: tex/../img/e10-1.pdf  used on input line 46.
 (pdftex.def)             Requested size: 333.52522pt x 248.96953pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [1
 
 {C:/Users/Jian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Jian/
 AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Jian/AppDa
 ta/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Jian/AppDat
 a/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<tex/../img/e10-1b.pdf, id=57, 570.21031pt x 405.43471pt>
+<tex/../img/e10-1b.pdf, id=62, 570.21031pt x 405.43471pt>
 File: tex/../img/e10-1b.pdf Graphic file (type pdf)
 <use tex/../img/e10-1b.pdf>
 Package pdftex.def Info: tex/../img/e10-1b.pdf  used on input line 73.
@@ -1326,22 +1323,30 @@ for $\OML/lmm/m/it/10 t=T \OT1/lmr/m/n/10 = 45 []\OML/lmm/m/it/10 =\OT1/lmr/m/n
  []
 
 [4]
-<tex/../img/e10-3b.pdf, id=111, 498.22498pt x 227.2125pt>
+<tex/../img/e10-3b.pdf, id=116, 498.22498pt x 227.2125pt>
 File: tex/../img/e10-3b.pdf Graphic file (type pdf)
 <use tex/../img/e10-3b.pdf>
 Package pdftex.def Info: tex/../img/e10-3b.pdf  used on input line 189.
 (pdftex.def)             Requested size: 345.0pt x 157.33495pt.
  [5 <./tex/../img/e10-3b.pdf>]
-<tex/../img/e10-3c.pdf, id=124, 498.36188pt x 227.34938pt>
+<tex/../img/e10-3c.pdf, id=129, 498.36188pt x 227.34938pt>
 File: tex/../img/e10-3c.pdf Graphic file (type pdf)
 <use tex/../img/e10-3c.pdf>
 Package pdftex.def Info: tex/../img/e10-3c.pdf  used on input line 219.
 (pdftex.def)             Requested size: 345.0pt x 157.39159pt.
+<tex/../img/e10-3d.pdf, id=131, 498.06076pt x 227.04825pt>
+File: tex/../img/e10-3d.pdf Graphic file (type pdf)
+<use tex/../img/e10-3d.pdf>
+Package pdftex.def Info: tex/../img/e10-3d.pdf  used on input line 235.
+(pdftex.def)             Requested size: 345.0pt x 157.28012pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ! Undefined control sequence.
 <argument> \kilo \Pascal 
                          
-l.255 \end{gather*}
+l.266 \end{gather*}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1352,42 +1357,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilo \Pascal 
                          
-l.255 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! Package siunitx Error: Found prefix part with no unit.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.255 \end{gather*}
-                   
-
-Each prefix part must be associated with a unit: a prefix part was found but
-no following unit was given.
-
-
-! Undefined control sequence.
-<argument> \kilo \Pascal 
-                         
-l.255 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \kilo \Pascal 
-                         
-l.255 \end{gather*}
+l.266 \end{gather*}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1401,28 +1371,72 @@ and I'll forget about whatever was undefined.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.255 \end{gather*}
+l.266 \end{gather*}
                    
 
 Each prefix part must be associated with a unit: a prefix part was found but
 no following unit was given.
 
 
-[6 <./tex/../img/e10-3c.pdf>]) [7]
+! Undefined control sequence.
+<argument> \kilo \Pascal 
+                         
+l.266 \end{gather*}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \kilo \Pascal 
+                         
+l.266 \end{gather*}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package siunitx Error: Found prefix part with no unit.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.266 \end{gather*}
+                   
+
+Each prefix part must be associated with a unit: a prefix part was found but
+no following unit was given.
+
+
+[6 <./tex/../img/e10-3c.pdf>] [7 <./tex/../img/e10-3d.pdf>] [8{C:/Users/Jian/Ap
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}])
+(tex/chapter-11.tex) [9]
 (C:\Users\Jian\Main\projects\che-thermo-SVA\build\main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3DB0DB06797C25F7674EF5F0197CEC69;712.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: ED11CDC602A5E70E55D94F1DF824FF00;829
+(rerunfilecheck)             After:  45A70838A82D60169AB7F9F14E60E003;926.
  ) 
 Here is how much of TeX's memory you used:
- 25722 strings out of 474485
- 524921 string characters out of 5744206
+ 25764 strings out of 474485
+ 525610 string characters out of 5744206
  1944542 words of memory out of 5000000
- 47561 multiletter control sequences out of 15000+600000
- 600059 words of font info for 62 fonts, out of 8000000 for 9000
+ 47578 multiletter control sequences out of 15000+600000
+ 604277 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,93p,508b,1349s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
@@ -1431,19 +1445,21 @@ nts/cm/cmr12.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmr17.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmbx10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmmi10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/font
-s/type1/public/lm/lmmi7.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/lm/lmr10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmr12.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmr17.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/lm/lmr7.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/lm/lmssbx10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/lm/lmsy10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/lm/lmsy7.pfb>
-Output written on C:\Users\Jian\Main\projects\che-thermo-SVA\build\main.pdf (7 
-pages, 359353 bytes).
+ts/type1/public/lm/lmex10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmmi10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/lm/lmmi7.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmr10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/lm/lmr12.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmr17.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/lm/lmr7.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmri10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmssbx10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmsy10.pfb><C:/Users/Jian/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmsy7.pfb>
+Output written on C:\Users\Jian\Main\projects\che-thermo-SVA\build\main.pdf (9 
+pages, 394509 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,3 +4,5 @@
 \contentsline {subsection}{Example 10.3*}{4}{section*.4}%
 \contentsline {subsection}{Example 10.4*}{6}{section*.5}%
 \contentsline {subsection}{Example 10.5*}{6}{section*.6}%
+\contentsline {subsection}{Problem 10.1}{7}{section*.7}%
+\contentsline {section}{Chapter 11}{9}{section*.8}%
